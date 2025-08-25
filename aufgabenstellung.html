@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aufgabenstellung und Informationssammlung">
+    <meta name="author" content="Tobias Weiß">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1> Beschreibung der Aufgabe </h1>
+</head>
+<body>
+    Die erste Komponente ermöglicht die Produktsuche über ein Auswahlfeld für die Tierart mit einem Button zum Absenden der Suchanfrage. <br>
+    Sofern die Suche erfolgreich ist, werden alle passenden Produkte mit Bezeichnung und Preis angezeigt. <br>
+    Falls kein Produkt gefunden wurde, wird den Nutzenden des Webshops eine entsprechende Benachrichtigung angezeigt. 
+    <br>
+    <br>
+    Unter der Ergebnisanzeige soll zudem die Anzahl der gefunden Produkte dargestellt werden. <br>
+    Außerdem soll die Anzeige auf- und absteigend nach dem Preis sortierbar sein. 
+    <br>
+    <br>
+    Zur Lösung ist eine Datenbankanbindung zu verwenden. Für die Entwicklung der Datenbank bieten sich beispielsweise MySQL oder MariaDB an. <br>
+    Das Datenmodell der Produktdatenbank ist wie folgt: <br>
+    TABLE Produkt ( <br>
+    id VARCHAR(30) PRIMARY KEY, <br>
+    bez VARCHAR(255), <br>
+    beschr VARCHAR(255), <br>
+    preis DECIMAL(10,2), <br>
+    tierart(INT) <br>
+    ) <br><br>
+     Id: Einzigartige Identifikationsnummer für jedes Produkt <br>
+     Bez: Die Bezeichnung des jeweiligen Produkts <br>
+     Beschr: Produktbeschreibung <br>
+     Preis: Der Preis für eine einzelne Einheit des jeweiligen Produktes in Euro <br>
+     Tierart: Die Angabe, ob das Futter für 1=Hunde oder 2=Katzen ist. <br>
+    <br>
+    <br>
+    Befüllen Sie die Datenbank mit (mindestens) acht verschiedenen sinnvollen Beispieldatensätzen.
+    <br>
+    <br>
+    1.2. Die zweite Komponente ermöglicht den Mitarbeitenden die Eingabe neuer Produkte. Hierbei ist auf eine sinnvolle Festlegung der Eingabefelder zu achten. <br> 
+    Nach Bestätigung der Eingabe soll das eingegebene Produkt angezeigt werden.<br> 
+    Ein Passwortschutz für den Bereich für Mitarbeitende ist nicht erforderlich.
+
+    <br><br><br><br>
+    <h2>Informationssammlung</h2><br>
+    Hier halte ich Informationen fest, Webseitenverweise, etc.
+    <br>
+    Mein ziel ist es, die Aufgaben der KÜ ohne KI-Unterstützung zu erledigen. <br>
+    Verwendung von klassischen Suchmaschinen ist aber nötig. <br>
+    Meta-Tags habe ich hier gefunden: https://www.w3schools.com/tags/tag_meta.asp <br>
+    Allgemeine Beschreibung zu vielen Sprache der Web-Entwicklung: https://www.w3schools.com/html/default.asp <br>
+
+    <br>
+</body>
+
+</html>
