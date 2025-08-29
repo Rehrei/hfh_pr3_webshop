@@ -59,7 +59,9 @@
             echo "
                 letzte ID = $lastid <br>
             ";
+            */
             $new_id = $lastid + 1;
+            /*
             echo "
                 neue ID = $new_id <br>
             ";
